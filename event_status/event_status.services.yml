@@ -1,0 +1,3 @@
+services:
+  event_status.calculate_status:
+    class: Drupal\event_status\Services\EventStatusCalculator

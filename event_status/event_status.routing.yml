@@ -1,0 +1,10 @@
+event_status.content:
+
+  path: '/event_status'
+  defaults:
+    _controller: '\Drupal\event_status\Controller\EventStatusController::display'
+    _title: 'Display Event Status'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
